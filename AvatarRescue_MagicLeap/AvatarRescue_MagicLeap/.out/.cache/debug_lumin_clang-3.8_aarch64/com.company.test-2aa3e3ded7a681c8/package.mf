@@ -1,0 +1,290 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "/Users/johnhanacek/MagicLeap/mlsdk/v0.20.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/johnhanacek/MagicLeap/TempSharedCert/TempSharedCert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "303f2e9ff28ce09c215531dcb5835de9c7a4735e",
+   "xfrm_path": "/Users/johnhanacek/MagicLeapTest1/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.test-2aa3e3ded7a681c8/libc++_shared.so-cf14eb5a255e3e92",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "bb061e82868b3f4b40da75748abd522a0a38312b",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 3985448,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "171ab01f8a4f69cfbd9c1e589ce17ca919458f18",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 58571256,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/johnhanacek/MagicLeap/TempSharedCert/TempSharedCert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "0d25f78c80c707f6fe24b72239c624a229a01b98",
+   "xfrm_path": "/Users/johnhanacek/MagicLeapTest1/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.test-2aa3e3ded7a681c8/libil2cpp.so-7c62e0e5c97cb851",
+   "xfrm_size": 58572014
+  },
+  {
+   "compression": 8,
+   "hash": "6b3b1067e8eeb28457c572292a209cc931e93089",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 269360,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/johnhanacek/MagicLeap/TempSharedCert/TempSharedCert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "e01543756889b5c34c20b8a128158f456516c62e",
+   "xfrm_path": "/Users/johnhanacek/MagicLeapTest1/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.test-2aa3e3ded7a681c8/AudioPluginMSASpatializer.so-17c159d6abbee2bc",
+   "xfrm_size": 270118
+  },
+  {
+   "compression": 8,
+   "hash": "0dcf6d6b8f274d400b8544696e7a6f9f81c6ba81",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 100864,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "06995ecae530eca2b6f5337b27dbdfcb727599da",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 1495800,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/johnhanacek/MagicLeap/TempSharedCert/TempSharedCert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "f0109a43f17e9569b7a595e95db6721cc6cc5b36",
+   "xfrm_path": "/Users/johnhanacek/MagicLeapTest1/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.test-2aa3e3ded7a681c8/UnityMagicLeap.so-17c159d6abbee2bc",
+   "xfrm_size": 1496558
+  },
+  {
+   "compression": 8,
+   "hash": "e36553e9a3113280d39db515a350a0036cda878d",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/johnhanacek/MagicLeap/TempSharedCert/TempSharedCert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "3019bee11db23a72a4856e10ac1a3187a7ec143a",
+   "xfrm_path": "/Users/johnhanacek/MagicLeapTest1/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.test-2aa3e3ded7a681c8/libml_camera_plugin.so-17c159d6abbee2bc",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "0ee8bd5ed3f83c8d11c84a597fb375ec525b0642",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67624,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/johnhanacek/MagicLeap/TempSharedCert/TempSharedCert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "6f2b17312b78fa3cbf54cc94a616b192b7e4352f",
+   "xfrm_path": "/Users/johnhanacek/MagicLeapTest1/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.test-2aa3e3ded7a681c8/libml_mediaplayer_plugin.so-17c159d6abbee2bc",
+   "xfrm_size": 68382
+  },
+  {
+   "compression": 8,
+   "hash": "984e4d2049ed5491b970ba15d1e8c8cadac0896e",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 339968,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "63c7ca62020949b1c87b1439f31b7a9719db98c1",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3652028,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "1fdd94a886b1019cd3f62d85935f2e2b2dda0711",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 754668,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "07a1a6072f5e1bb3a3f4905632232dc66e76c2d5",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 168,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "3b1174c421ae45713d27b0676858c2dc1b5844dc",
+   "pkgpath": "Data/boot.config",
+   "size": 265,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "3ce22bfa9bdd07ece1f55d4058df6b9ffd077452",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 42360,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "864f24ad7eaae8772a7ecd10884d7d211a2ac99f",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 46064,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "5b1a691ce6606c5ce97c99e17bf891a9372c8519",
+   "pkgpath": "Data/level0",
+   "size": 38388,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "4af79254c8d030f86b4a2c7567ab503c7196ae54",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "8665eabfe9bdb7c14948d623fd1be7a9c00cf693",
+   "pkgpath": "Data/resources.assets",
+   "size": 110328,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "f4ce785d29d24c54555cb4aa9fed0d8d2dee1fad",
+   "pkgpath": "Data/resources.assets.resS",
+   "size": 360480,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/resources.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "aed902dac400282f53edb81f586e6c2c6b14b55f",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 29277260,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "51a12820e1ecefdeff970b053b244c486fab05aa",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 8374224,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "54a4eb590a0bf04d21fc0d12d8936391940ef574",
+   "pkgpath": "Data/sharedassets0.resource",
+   "size": 3392,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Data/sharedassets0.resource"
+  },
+  {
+   "compression": 8,
+   "hash": "f7ae4af47c0fb05394c36e194f08717dc0274a30",
+   "pkgpath": "bin/Player.elf",
+   "size": 48610920,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/johnhanacek/MagicLeap/TempSharedCert/TempSharedCert.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "fa698bcbdcbdf28931a55982f7b4ee64cf1aa4c3",
+   "xfrm_path": "/Users/johnhanacek/MagicLeapTest1/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.test-2aa3e3ded7a681c8/Player.elf-f9b8fba25fcbcef0",
+   "xfrm_size": 48611678
+  },
+  {
+   "compression": 8,
+   "hash": "1dae7d0ec9d052ed3bfe8e527539cae98d1aa610",
+   "pkgpath": "manifest.xml",
+   "size": 3392,
+   "src": "/Users/johnhanacek/MagicLeapTest1/Temp/StagingArea/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "ecaeb739fb985f28295a2611c5f14f39cb91342c",
+     "developer_id": "temporarycertificates"
+    }
+   },
+   "xfrm_hash": "0192c11ef9dd3171a99f2887abb01243ecb6164e",
+   "xfrm_path": "/Users/johnhanacek/MagicLeapTest1/.out/.cache/debug_lumin_clang-3.8_aarch64/com.company.test-2aa3e3ded7a681c8/manifest.xml-f9b8fba25fcbcef0",
+   "xfrm_size": 1118
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/johnhanacek/MagicLeap/TempSharedCert/TempSharedCert.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "/Users/johnhanacek/MagicLeap/TempSharedCert/TempSharedCert.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
