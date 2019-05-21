@@ -1,87 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using IBM.Watsson.Examples;
 
-[System.Serializable]
-public class ConersationPoint
+public enum INPUT_STATE
 {
-    public string triggerStatement = "";
-    public string statementToChatbot = "";
-    public float speechTime = 4f;
-    public bool hasFiredOff = false;
-}
-[System.Serializable]
-public class PopUpImage
-{
-    public Animator anim;
-    public int elementToPop;
-}
+    TALK,
+    TYPE,
+    MULTIPLE_CHOICE
+};
 public class AvatarRescueController : MonoBehaviour
 {
-    bool imageLastTalkingPoint = false;
-    public ExampleStreaming stt;
-    public AvatarRescue_WatsonInterface assistant;
+    public INPUT_STATE input_state = INPUT_STATE.TYPE;
+    public SpeechToText stt;
+    public Assistant assistant;
     public TextToSpeech tts;
-
-    public ConersationPoint[] conversations;
-    int counter = 0;
-
-    public PopUpImage[] popUps;
-    int popUpCounter = 0;
-
-    void Start()
+    public bool isTalking = false;
+    public void StartRecording()
     {
-        StartCoroutine(StartAvatar());
-    }
-    
-    void Update()
-    {
-        if (counter < conversations.Length)
-        {
-            if (stt.GetRecordedText().Contains(conversations[counter].triggerStatement) && !conversations[counter].hasFiredOff)
-            {
-                conversations[counter].hasFiredOff = true;
-                StartCoroutine(SendToAvatar());
-                if(imageLastTalkingPoint)
-                {
-                    imageLastTalkingPoint = false;
-                    if (popUpCounter > 0)
-                    {
-                        popUps[popUpCounter - 1].anim.Play("Close");
-                    }
-                }
-                if (popUpCounter < popUps.Length)
-                {
-                    if (popUps[popUpCounter].elementToPop == counter)
-                    {
-                        imageLastTalkingPoint = true;
-                        popUps[popUpCounter].anim.Play("Open");
-                        popUpCounter++;
-                    }
-                }
-            }
-        }
-    }
-    IEnumerator StartAvatar()
-    {
-        yield return new WaitForSeconds(5);
-        tts.SayThisText(assistant.GetChatResponse());
         stt.StartRecording();
     }
-    IEnumerator SendToAvatar()
+    public void StopRecording()
     {
+        string recorded = stt.GetRecordedText();
         stt.StopRecording();
-        yield return new WaitForSeconds(.5f);
-        assistant.SendToChatbot(conversations[counter].statementToChatbot);
-        yield return new WaitForSeconds(1);
-        tts.SayThisText(assistant.GetChatResponse());
-        yield return new WaitForSeconds(conversations[counter].speechTime);
-        if (counter < conversations.Length)
-        {
-            counter++;
-            stt.StartRecording();
-        }
-
+        assistant.SendToChatbot(recorded);
     }
+
 }

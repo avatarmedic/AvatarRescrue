@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AvatarRescue.unity
-    guid: f5983e38887029748ad270e5825a1f23
+    path: Assets/Popup Youtube Android Ios/Scenes/Scene Youtube Sample.unity
+    guid: a87721c3fa76ee043aca45fa8795d4c8
   m_configObjects: {}

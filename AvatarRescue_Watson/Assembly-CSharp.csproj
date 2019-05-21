@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FEA96F99-6E72-2455-BF5B-B25E315AF299}</ProjectGuid>
+    <ProjectGuid>{4A161E24-BEA1-F75A-9323-E5331290D1AE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,25 +60,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AvatarRescue_WatsonInterface.cs" />
+    <Compile Include="Assets\Popup Youtube Android Ios\Scripts\Class\PopupYoutube.cs" />
+    <Compile Include="Assets\Popup Youtube Android Ios\Scripts\SampleYoutube.cs" />
+    <Compile Include="Assets\ScriptableObjects\IBM_Services\IBM_Service.cs" />
+    <Compile Include="Assets\Scripts\Assistant.cs" />
     <Compile Include="Assets\Scripts\AvatarRescueController.cs" />
+    <Compile Include="Assets\Scripts\SpeechToText.cs" />
+    <Compile Include="Assets\Scripts\TextInput.cs" />
     <Compile Include="Assets\Scripts\TextToSpeech.cs" />
     <Compile Include="Assets\Simple UI\Samples\IconPreview.cs" />
+    <None Include="Assets\Popup Youtube Android Ios\Readme.txt" />
     <None Include="Assets\Simple UI\Fonts\OFL.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -282,19 +288,19 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.8f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Assets/IBM_SDK_Core/Plugins/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Assets/IBM_SDK_Core/Plugins/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Assets/IBM_SDK_Core/Plugins/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Assets/IBM_SDK_Core/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -653,11 +659,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="WatsonUnitySDK.csproj">
-      <Project>{6BB36474-7383-9BF6-7CB3-F4C07AA0DB36}</Project>
+      <Project>{27905EBB-E75B-7F8C-B5CC-1BB5E6D94FBB}</Project>
       <Name>WatsonUnitySDK</Name>
     </ProjectReference>
     <ProjectReference Include="IBM.Cloud.SDK.csproj">
-      <Project>{9FDDE562-05E0-BE41-3CF4-7E3ABF296E0D}</Project>
+      <Project>{76B4CF30-1958-386B-441B-1BBBC11D640D}</Project>
       <Name>IBM.Cloud.SDK</Name>
     </ProjectReference>
   </ItemGroup>

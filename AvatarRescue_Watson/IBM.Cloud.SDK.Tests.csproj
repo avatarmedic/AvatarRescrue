@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AAC85790-1706-B563-C5F0-681FB202C441}</ProjectGuid>
+    <ProjectGuid>{F1964492-E802-8C62-CEDC-5A3FA0CB4D8E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>IBM.Cloud.SDK.Tests</AssemblyName>
@@ -302,25 +302,25 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Assets/IBM_SDK_Core/Plugins/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Assets/IBM_SDK_Core/Plugins/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Assets/IBM_SDK_Core/Plugins/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Assets/IBM_SDK_Core/Plugins/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/heyjo/Desktop/AvatarRescue_ATTHack_2019/AvatarRescrue/AvatarRescue_Watson/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -679,7 +679,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="IBM.Cloud.SDK.csproj">
-      <Project>{9FDDE562-05E0-BE41-3CF4-7E3ABF296E0D}</Project>
+      <Project>{76B4CF30-1958-386B-441B-1BBBC11D640D}</Project>
       <Name>IBM.Cloud.SDK</Name>
     </ProjectReference>
   </ItemGroup>

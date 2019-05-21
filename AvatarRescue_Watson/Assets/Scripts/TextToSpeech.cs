@@ -12,6 +12,8 @@ using IBM.Watson.TextToSpeech.V1.Model;
 
 public class TextToSpeech : MonoBehaviour
 {
+        public IBM_Service ttsService;
+    
         private TextToSpeechService service;
         private string allisionVoice = "en-US_AllisonVoice";
         private string synthesizeText = "Hello, welcome to the Watson Unity SDK!";
@@ -24,14 +26,18 @@ public class TextToSpeech : MonoBehaviour
         private string customizationId;
         private string customWord = "IBM";
         private string customWordTranslation = "eye bee m";
+        bool isReady = false;
 
-        private string _serviceUrl = "https://stream.watsonplatform.net/text-to-speech/api";
-        string _iamApikey = "KAeU5UTXXaKmDyGqN6xh3txppYIDr2-goiWI4KoMH9Ca";
+        string _serviceUrl;
+        string _iamApikey;
+
         private string _recognizeModel;
 
         public AudioSource source;
         void Start()
         {
+            _serviceUrl = ttsService.ServiceURL;
+            _iamApikey = ttsService.APIKey;
             LogSystem.InstallDefaultReactors();
             Runnable.Run(CreateService());
         }
@@ -59,14 +65,17 @@ public class TextToSpeech : MonoBehaviour
                 yield return null;
 
             service = new TextToSpeechService(credentials);
-            
+            isReady = true;
 
         }
         public void SayThisText(string speech)
         {
-        Debug.Log("SPEECH: " + speech);
-            synthesizeText = speech;
-            StartCoroutine(Synthesize());
+            Debug.Log("SPEECH: " + speech);
+            if(speech != null)
+            {
+                synthesizeText = speech;
+                StartCoroutine(Synthesize());
+            }
         }
 
         #region Synthesize
@@ -94,6 +103,11 @@ public class TextToSpeech : MonoBehaviour
             yield return new WaitForSeconds(clip.length);
         }
         #endregion
+
+    public bool IsReady()
+    {
+        return isReady;
+    }
         
         #region PlayClip
         private void PlayClip(AudioClip clip)
