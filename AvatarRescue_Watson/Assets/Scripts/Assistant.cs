@@ -144,14 +144,15 @@ public class Assistant : MonoBehaviour
         if (response.Result.Output.Generic.Count > 0)
         {
             Debug.Log("Response Type : " + response.Result.Output.Generic[0].ResponseType);
-            switch(response.Result.Output.Generic[0].ResponseType)
+            chat_response = response.Result.Output.Generic[0].Text;
+            switch (response.Result.Output.Generic[0].ResponseType)
             {
                 case "text":
-                    Debug.Log("URL: " + response.Result.Output.Generic[0].Text);
-                    DisplayWatsonText(response.Result.Output.Generic[0].Text);
+                    Debug.Log("URL: " + chat_response);
+                    DisplayWatsonText(chat_response);
                     break;
                 case "image":
-                    Debug.Log("URL: " + response.Result.Output.Generic[0].Source);
+                    DisplayWatsonText(response.Result.Output.Generic[0].Title);
                     imageURL = response.Result.Output.Generic[0].Source;
                     StartCoroutine("DisplayWatsonImage");
                     break;
@@ -170,7 +171,9 @@ public class Assistant : MonoBehaviour
         if (text.Contains("https://www.youtube.com/"))
         {
             videoURL = text;
-            StartCoroutine("PlayVideo");
+            string youtubeID = videoURL.Split('=')[1];
+            Debug.Log("youtubeID ID: " + youtubeID);
+            PopupYoutube.FullYoutubeView(youtubeID);
         }
         else
         {

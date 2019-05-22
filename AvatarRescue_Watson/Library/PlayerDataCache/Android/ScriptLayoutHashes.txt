@@ -4,7 +4,9 @@ C:/Users/heyjo/Documents/Unity Projects/Watson_4_12/Builds/AvatarRescue.apk
 SceneListBegin?
 Assets/Scenes/AvatarRescue.unity
 SceneListEnd?
+10f327bd2b00eddf5621f3da6d075d94 Assembly-CSharp.dll:.IBM_Service
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
+f9ea36a82808b16620138b739a65082d Assembly-CSharp.dll:.SampleYoutube
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 61136915638918f2645ea8779369a3ae IBM.Cloud.SDK.dll:IBM.Cloud.SDK.Utilities.NestedPrefabs
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -20,6 +22,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.G
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
+946ba6d4a5bcec9d6a0f4f14b020563d Assembly-CSharp.dll:.IconPreview
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -98,7 +101,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.G
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 00274a21279f5cb831ce20f895049e38 Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
-ff67394d34b6928d7cf8f0a91f75c41a Assembly-CSharp.dll:.AvatarRescueController
+594b6fbefbc5cfe6ff3aca01af7df72f Assembly-CSharp.dll:.AvatarRescueController
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 1dcb82730d983b77cec736c6ef19f814 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -188,13 +191,13 @@ ae91c545dea6ac849dd81c4b660c68ca Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f WatsonUnitySDK.dll:IBM.Watson.Examples.ExamplePersonalityInsightsV3
+c06bfca3d6027003fc326e35eb1bf502 Assembly-CSharp.dll:.SpeechToText
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f WatsonUnitySDK.dll:IBM.Watson.Examples.ExampleAssistantV1
-c72e6dd5fd8f54b43b3c66c55f9a343d WatsonUnitySDK.dll:IBM.Watsson.Examples.ExampleStreaming
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 3d1826f2eb9e2cff190974e005e34a36 WatsonUnitySDK.dll:IBM.Watson.Examples.ExampleToneAnalyzerV3
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
-a4da482c1930e81fb49497222e6a6b16 Assembly-CSharp.dll:.TextToSpeech
+2b1fdfd350f3950249700f295aecb749 Assembly-CSharp.dll:.TextToSpeech
 af0537dabf7072720b1497b88b975216 IBM.Cloud.SDK.dll:IBM.Cloud.SDK.FrameRateCounter
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 5fd8258586b12b9c7e6ed50469780e09 IBM.Cloud.SDK.dll:IBM.Cloud.SDK.Utilities.TimedDestroy
@@ -234,6 +237,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 71bb6a6b6c8f052f948db64c7dd3ca4f WatsonUnitySDK.dll:IBM.Watson.Editor.IBMCloudSignup
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
+bfc4898fc643ceb5caa624b79cb22607 Assembly-CSharp.dll:.TextInput
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 71bb6a6b6c8f052f948db64c7dd3ca4f IBM.Cloud.SDK.dll:IBM.Cloud.SDK.Utilities.Runnable
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
@@ -274,7 +278,7 @@ ae91c545dea6ac849dd81c4b660c68ca Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-66642fbd35a175864006c28eed1f7e4a Assembly-CSharp.dll:.AvatarRescue_WatsonInterface
+21f0f097bb0f46b771031a55faa13d95 Assembly-CSharp.dll:.Assistant
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 f8b139fcde9fda6214245df246415cc7 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
@@ -309,4 +313,3 @@ ae91c545dea6ac849dd81c4b660c68ca Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-946ba6d4a5bcec9d6a0f4f14b020563d Assembly-CSharp.dll:.IconPreview
